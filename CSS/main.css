@@ -1,0 +1,178 @@
+/*Background Image*/
+html {
+    background-image: url("../Pictures/back.jpg");
+    background-image: no-repeat;
+}
+
+#b5 {
+    background-image: url("../Pictures/back.jpg");
+    background-image: no-repeat;
+}
+
+/* Bordered form */
+form, h2{
+    border: 3px;
+    margin: auto;
+    width: 25%;
+    font-weight: bold;
+}
+
+#addform{
+  border: 1px;
+  width: 100%;
+  font-weight: bold;
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=date], select, input[type=datetime-local] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=image]{
+  width: 15%;
+}
+
+#b11{
+  width: 45%;
+}
+
+/* for header */
+h2{
+    border: 3px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* button in congrats page */
+ul{
+  text-align: center;
+}
+
+/*button in congrats page */
+#b2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#delete {
+    background-color: #ff3333 ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#edit {
+    background-color: #ffff4d ;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* Add a hover effect for buttons */
+input[type=image]:hover {
+    opacity: 0.4;
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 25%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 1px;
+}
+
+p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+#b7, #etask{
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+#b3 {
+  text-align: right;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+
+th, td{
+
+  padding-left:5em;
+
+}
+
+#tRows{
+
+  padding-left:0em;
+
+}
+
+#tswitch{
+
+  padding-left:.5em;
+
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 2px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  background-color: #70dc70;
+}
+
+.centerTable { margin: 0px auto; }
